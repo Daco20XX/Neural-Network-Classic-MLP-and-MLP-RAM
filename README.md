@@ -1,1 +1,0 @@
-# Neural-Network-Classic-MLP-and-MLP-RAM
