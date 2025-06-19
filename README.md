@@ -39,15 +39,10 @@ git clone https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO_MODELAGEM.git
 cd NOME_DO_REPOSITORIO_MODELAGEM
 ```
 
-2. Instale as dependências:
+2. Execute os scripts dos modelos:
 ```bash
-pip install -r requirements.txt
-```
-
-3. Execute os scripts dos modelos:
-```bash
-python mlp_tradicional.py
-python mlp_ram.py
+python MLP_Classico.py
+python MLP_RAM.py
 ```
 
 ---
@@ -56,13 +51,9 @@ python mlp_ram.py
 
 ```
 📦 classificacao-mlp-mlp-ram
-├── 📜 mlp_tradicional.py
-├── 📜 mlp_ram.py
-├── 📁 dados
-│   └── features_processadas.csv
-├── 📁 resultados
-│   └── metricas_mlp.txt
-│   └── metricas_mlp_ram.txt
+├── 📜 MLP_Classico.py
+├── 📜 MLP_RAM.py
+├── distancia_colisao.csv
 └── 📄 README.md
 ```
 
@@ -133,6 +124,13 @@ weighted avg       0.66      0.81      0.72       100
 ```
 
 ---
+
+**Aplicação Demonstrativa**
+
+A análise do gráfico revela a evolução da probabilidade de colisão em função das medidas de distância. Observa-se que apenas o modelo MLP Clássico foi capaz de capturar corretamente a relação esperada: quanto maior a distância, menor a probabilidade de colisão. O modelo MLP-RAM, por outro lado, não demonstrou sensibilidade suficiente a essa tendência, falhando em representar essa correlação de forma consistente.
+
+![image](https://github.com/user-attachments/assets/db0c0005-3978-424d-bab8-42bad356cbf2)
+
 
 ## 📊 Análise Crítica
 
