@@ -94,7 +94,7 @@ python MLP_RAM.py
 weighted avg       0.98      0.98      0.98       100
 ```
 
-**Matriz de Confusão:**
+- **Matriz de Confusão:**
 ```
 [[81  0]
  [ 2 17]]
@@ -117,7 +117,7 @@ weighted avg       0.98      0.98      0.98       100
 weighted avg       0.66      0.81      0.72       100
 ```
 
-**Matriz de Confusão:**
+- **Matriz de Confusão:**
 ```
 [[81  0]
  [19  0]]
